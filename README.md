@@ -89,6 +89,6 @@ Managing Django Admin and authentication
 Nupur Bhargav
 Full Stack Developer | Python | Django | React
 **GitHub:** [https://github.com/nupurbhargav]
-**LinkedIn:** [https://www.linkedin.com/in/nupur-bhargav/]
+**LinkedIn:** [https://linkedin.com/in/nupurbhargav]
 
 

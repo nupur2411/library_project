@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library - Authors</title>
+</head>
+<body>
+    <h1>🧑‍💼 Authors List</h1>
+    <ul>
+        {% for author in authors %}
+            <li>{{ author.name }} - (Age: {{ author.age }})</li>
+        {% empty %}
+            <li>No authors available.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library - Categories</title>
+</head>
+<body>
+    <h1>🏷 Categories</h1>
+    <ul>
+        {% for category in categories %}
+            <li>{{ category.name }} (Books: {{ category.book_count }})</li>
+        {% empty %}
+            <li>No categories available.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
